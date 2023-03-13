@@ -93,6 +93,7 @@ Now, I chose to plot the data for Florida state and hence I defined a new variab
 I now chose to plot a bar chartof the number of fatalities (column: `fatal`) each year (column: `year`) using the three methods as instructed. 
 
 **1) Base R**
+
 Using just Base R, with no package, I used the `barplot()` command:
 
 ```
@@ -115,6 +116,7 @@ The obtained chart is shown below.
 This implementation was easy to use and customize. I found it to be very interesting.
 
 **2) Lattice**
+
 Using the Lattice package, I used the `barchart()` command:
 
 ```
@@ -138,6 +140,7 @@ The obtained chart is shown below.
 I found this implementation to be the toughest of the three. This was because the arguments to the function were not intuitive and I had to iterate multiple times, experimenting with different methods of providing the arguments to obtain the plot in the fashion that I wanted. Also, it took me some time to figure out the `horiz` argument to make the plot vertical. Though interesting, I found this package to be difficult to use. 
 
 **3) ggplot**
+
 Using the ggplot package, I used the `ggplot()` command:
 
 ```
